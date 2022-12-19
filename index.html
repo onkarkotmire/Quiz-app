@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="heading_container">
+            <h2>Awesome Quiz Application</h2>
+            <div class="timer_container">
+            <p id="ptagoftimeleft">Time Left</p>
+            <div id="time_left">8</div>
+            </div>
+        </div>
+        <h2 style="margin-left: 20px;" id="question"></h2>
+        <div class="question_opt" id="op1"><p></p></div>
+        <div class="question_opt" id="op2"><p></p></div>
+        <div class="question_opt" id="op3"><p></p></div>
+        <div class="question_opt" id="op4"><p></p></div>
+
+        <div class="next_question_container">
+            <p><span id="que_count">1</span> of <span>5</span> Questions </p>
+            <button class="evaluate">Start Quiz</button>
+            <div class="next_que_block"><button class="next">Next Que</button></div>
+        </div>
+    </div>
+    <div class="result">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
